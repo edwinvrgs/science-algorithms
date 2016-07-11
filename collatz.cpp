@@ -14,7 +14,7 @@ void collatz(long int number)
 	}
 	
 	file << "Number to analize: " << number << endl << endl;
-	file << "Iteration\t\tPar\t\tImpar" << endl;
+	file << "Iteration\tPar\t\tImpar" << endl;
 	
 	for(int i = 0; i < number; i++) {
 		
